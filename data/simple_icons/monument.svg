@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="114.25033mm"
+   height="135.06003mm"
+   viewBox="0 0 114.25033 135.06003"
+   version="1.1"
+   id="svg1039"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="naked_monument.svg">
+  <defs
+     id="defs1033">
+    <linearGradient
+       id="linearGradient913"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop911" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-106.67109"
+     inkscape:cy="274.72209"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     borderlayer="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1036">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(368.36783,-32.945103)">
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g919-6"
+       transform="matrix(0.77731752,0,0,0.77731752,-96.796199,-0.12415311)" />
+    <rect
+       y="152.51505"
+       x="-368.36783"
+       height="15.490088"
+       width="114.25033"
+       id="rect815"
+       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00122495;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\klint\Pictures\bauska_dizains\ikonas\report3\7.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       y="116.60917"
+       x="-354.08652"
+       height="32.701298"
+       width="85.687744"
+       id="rect817"
+       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00126333;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\klint\Pictures\bauska_dizains\ikonas\report3\7.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       inkscape:transform-center-y="-2.0569126"
+       inkscape:transform-center-x="-0.025860026"
+       transform="matrix(0.3892289,0,0,0.14106896,-447.5097,23.811722)"
+       d="m 405.13174,160.07692 -110.07371,0.0984 54.89208,-95.431216 z"
+       inkscape:randomized="0.002"
+       inkscape:rounded="-3.46945e-18"
+       inkscape:flatsided="true"
+       sodipodi:arg2="1.5707963"
+       sodipodi:arg1="0.52359878"
+       sodipodi:r2="31.780497"
+       sodipodi:r1="63.560993"
+       sodipodi:cy="128.26772"
+       sodipodi:cx="350"
+       sodipodi:sides="3"
+       id="path821"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00377953;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:type="star" />
+    <path
+       id="rect827-7"
+       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00109602;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -303.42535,50.776287 h 5.86296 V 105.5653 h -5.86296 z m -21.49756,-1.6e-4 h 5.86296 v 54.789013 h -5.86296 z m -7.74167,-4.396862 h 42.84387 v 67.697425 h -42.84387 z"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

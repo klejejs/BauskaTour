@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>BauskaTour</title>
+    <link rel="shortcut icon" href="./data/app_icons/icon-96x96.png" type="image/png">
+    <meta name="description" content="...">
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Cookie consent stylesheet !-->
+    <link rel="stylesheet" type="text/css" href="./css/cookieconsent.min.css" />
+    <script src="./js/cookieconsent.min.js"></script>
+    
+    <!-- Leaflet JS -->
+    <script src="./js/leaflet.js"></script>
+    <link rel="stylesheet" href="./css/leaflet.css" />
+    
+    <!-- jQuery -->
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Touch swipe library -->
+    <!-- <script src="./js/touch-sideswipe.js"></script> -->
+    <!-- <link rel="stylesheet" href="touch-sideswipe.css"> -->
+    
+    <!-- Leaflet JS language selector -->
+    <script src="./js/leaflet-languageselector.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/leaflet-languageselector.css" />
+    
+    <!-- Leaflet JS location -->
+    <script src="./js/L.Control.Locate.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/L.Control.Locate.min.css" />
+    
+    <!-- Accurate Position library !-->
+    <script src="./js/accuratePosition.js"></script>
+
+    <!-- Our styling file -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Popup images carousel styling file -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+
+    <!-- PWA files -->
+    <link rel="manifest" href="./manifest.json">
+    
+    <!-- PWA iOS supprort -->
+    <link rel="apple-touch-icon" href="./data/app_icons/icon-120x120.png">
+    <link rel="apple-touch-icon" href="./data/app_icons/icon-180x180.png">
+    <link name="apple-mobile-web-app-status-bar" content="#7ed6df">
+    <meta name="theme-color" content="#7ed6df">
+</head>
+<body>
+    <div id="map" class="map">
+        <a href="http://mapbox.com/about/maps" class='mapbox-wordmark' target="_blank" rel="noopener">Mapbox</a>
+    </div>
+    
+    <!-- <div id="touchSideSwipe" class="touch-side-swipe">
+        <div class="navBarMain">
+            <div class="top">
+                <div>...</div>
+                <div>...</div>
+                <div>...</div>
+            </div>
+            <div class="bottom">
+                <div>About</div>
+                <div>Terms and conditions</div>
+            </div>
+        </div>
+    </div> -->
+
+    <div id="toast">Some text some message..</div>
+
+    <div id="layerOpenButton" class="layerOpenButton" onclick="openLayerContainer();"><img src="./data/icons/layers_even_simpler.svg" alt="L"></div>
+    <div id="layerClose" class="layerClose" ontouchstart="closeLayerContainer();"></div>
+    <div id="layerContainer" class="layerContainer">
+        <table id="layerControlTable"></table>
+    </div>
+    
+    <div id="closePopupBackground" class="closePopupBackground" ontouchstart="closeInfoPopup();" onclick="closeInfoPopup();"></div>
+    <div id="popupWindow" class="popupWindow">
+        <div class="popupInnerContainer">
+            <div class="leftSide">
+                <div id="closePopup" class="closePopup" onclick="closeInfoPopup();"><div class="closePopupInner"></div></div>
+                <h3 id="popupTitle" class="titlePart">Bauskas pils</h3>
+                <div id="popupContent" class="popupContent">
+                    <p id="popupDescription"></p>
+                </div>
+
+                <p id="popupAdditionalInfo"></p>
+                <p id="popupAmenities"></p>
+                <div id="popupPrice"></div>
+                <div id="popupCellphone"></div>
+                <div id="popupAddress"></div>
+            </div>
+            <div class="rightSide">
+                <div class="imagePart">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                        <!-- Wrapper for slides -->
+                        <div id="popup-carousel-inner" class="carousel-inner">
+<!--                        <div class="item active">
+                                <img class="imagePartImage" src="./data/object_image/bauskaspils.jpg" alt="Los Angeles" style="width:100%;">
+                            </div>
+
+                            <div class="item">
+                                <img class="imagePartImage" src="./data/object_image/bauskaspils.jpg" alt="Chicago" style="width:100%;">
+                            </div> -->
+                        </div>
+
+                        <!-- Indicators -->
+                        <div  id="popup-carousel-indicators" class="carouselIndicators">
+<!--                             <div class="numberCircle active" data-target="#myCarousel" data-slide-to="0">1</div> -->
+<!--                             <div class="numberCircle" data-target="#myCarousel" data-slide-to="1">2</div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="backgroundPart"></div>
+                <div id="referencesInPopup" class="references">
+<!--                    <div class="referencesIcon">Icon</div>
+                    <div class="referencesText">Wikipedia.com (2006)</div> -->
+                </div>
+                <div class="sidebarOfPopup">
+                    <div class="sidebarIcon"></div>
+                    <div class="sidebarText">Bauska Tour</div>
+                </div>
+
+            </div>
+        </div>
+
+    
+    <!-- Cookies scripts !-->
+	<script src="./js/cookies.js"></script>
+
+    <script type="text/javascript" src="./js/language_data.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./data/object_data/data.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
